@@ -1,5 +1,6 @@
 {
-  "name": "valentines",
+  "homepage": "https://arnav1739.github.io/prsnl"
+  "name": "prsnl",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -28,5 +29,11 @@
   "overrides": {
     "@types/react": "19.2.10",
     "@types/react-dom": "19.2.3"
+  }
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "export": "next build && next export",
+  "deploy": "gh-pages -d out"
   }
 }
